@@ -134,18 +134,18 @@ int main() {
     double d2_b = qmcad::PadeTwo2ndOrderFunctor::PadeTwo2ndOrderFunctor_evaluate_d2udr2_analytical(r, A, B,  C, D);
     std::cout << std::fixed << std::showpoint;
     std::cout << std::setprecision(16);
-    std::cout << "        a: " << a << std::endl;
-    std::cout << "       da: " << d_a << std::endl;
-    std::cout << "    ad da: " << ad_d_a << std::endl;
-    std::cout << "      d2a: " << d2_a << std::endl;
-    std::cout << "   ad d2a: " << ad_d2_a << std::endl;
+    std::cout << "             a: " << a << std::endl;
+    std::cout << "analytical  da: " << d_a << std::endl;
+    std::cout << "        ad  da: " << ad_d_a << std::endl;
+    std::cout << "analytical d2a: " << d2_a << std::endl;
+    std::cout << "        ad d2a: " << ad_d2_a << std::endl;
     std::cout <<std::endl;
 
-    std::cout << "        b: " << b << std::endl;
-    std::cout << "       db: " << d_b << std::endl;
-    std::cout << "    ad db: " << ad_d_b << std::endl;
-    std::cout << "      d2b: " << d2_b << std::endl;
-    std::cout << "   ad d2b: " << ad_d2_b << std::endl;
+    std::cout << "             b: " << b << std::endl;
+    std::cout << "analytical  db: " << d_b << std::endl;
+    std::cout << "         ad db: " << ad_d_b << std::endl;
+    std::cout << "analytical d2b: " << d2_b << std::endl;
+    std::cout << "        ad d2b: " << ad_d2_b << std::endl;
     std::cout <<std::endl;
 }
 
